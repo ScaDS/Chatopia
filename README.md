@@ -11,6 +11,8 @@ IN this platform characters (Player and NPCs) interact with the world and each o
 1. Clone the repository
    ```bash
    git clone https://github.com/ScaDS/Chatopia.git
+   ```
+   ```bash
    cd Chatopia
    ```
 
@@ -19,6 +21,8 @@ IN this platform characters (Player and NPCs) interact with the world and each o
 
    ```bash
    export MY_IP=$(hostname -I | awk '{print $1}')
+   ```
+   ```bash
    sudo docker build --build-arg SERVER_IP=$MY_IP -t chatopia-demo .
    ```
 
