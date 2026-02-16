@@ -1,5 +1,4 @@
-# Chatopia
-## Latency-Conscious Multi-Agent Platform for Human-Like Social Interaction Simulation
+# Chatopia: Latency-Conscious Multi-Agent Platform for Human-Like Social Interaction Simulation
 
 This repository contains a demonstrator built based on Chatopia using Godot Engine.
 The demonstrator simulates an AI research office.
