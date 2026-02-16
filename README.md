@@ -28,8 +28,11 @@ IN this platform characters (Player and NPCs) interact with the world and each o
    sudo docker run -d -p 80:80 -p 443:443 -e SERVER_IP=$MY_IP --name chatopia chatopia-demo
    ```
 
-4. Access the demonstrator  
-   Open your web browser and navigate to: http://localhost/demo
+4. Access the demonstrator
+   ```bash
+   echo https://$MY_IP/demo
+   ```
+   Open your web browser and navigate to the URL shown as the output of previous command. 
 
 > Note: The demonstrator requires an active internet connection to communicate with the LLM backend.
 
